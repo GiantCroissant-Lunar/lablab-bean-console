@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LablabBean.Plugins.Rendering.Terminal</name>
+    </assembly>
+    <members>
+        <member name="T:LablabBean.Plugins.Rendering.Terminal.TerminalRenderingPlugin">
+            <summary>
+            Terminal rendering plugin that provides ISceneRenderer for Terminal.Gui.
+            </summary>
+        </member>
+        <member name="T:LablabBean.Plugins.Rendering.Terminal.TerminalSceneRenderer">
+            <summary>
+            Terminal.Gui implementation of ISceneRenderer.
+            Renders glyph-based TileBuffers to a Terminal.Gui view, or uses Kitty graphics protocol for high-quality image rendering.
+            </summary>
+        </member>
+        <member name="T:LablabBean.Plugins.Rendering.Terminal.TerminalSceneRendererBinding">
+            <summary>
+            Binding implementation that connects TerminalSceneRenderer to the UI plugin.
+            </summary>
+        </member>
+    </members>
+</doc>

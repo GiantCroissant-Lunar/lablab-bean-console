@@ -1,0 +1,20 @@
+2025-10-29 07:20:58.027 +08:00 [INF] Starting plugin loader service
+2025-10-29 07:20:58.052 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-29 07:20:58.056 +08:00 [INF] Preloading 5 contract assemblies from D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\bin\Release\net8.0\
+2025-10-29 07:20:58.057 +08:00 [INF] Preloaded contract assembly: LablabBean.Rendering.Contracts
+2025-10-29 07:20:58.057 +08:00 [INF] Preloaded contract assembly: LablabBean.Rendering.Terminal.Contracts
+2025-10-29 07:20:58.191 +08:00 [INF] Preloaded contract assembly: Terminal.Gui
+2025-10-29 07:20:58.191 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-29 07:20:58.193 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\plugins
+2025-10-29 07:20:58.193 +08:00 [WRN] No plugins discovered
+2025-10-29 07:20:58.193 +08:00 [INF] Plugin loader service started. Loaded 0 plugin(s)
+2025-10-29 07:20:58.196 +08:00 [INF] 
+=== Plugin System Metrics ===
+Total Load Time: 0.14s
+Plugins Attempted: 0
+Plugins Loaded: 0
+Plugins Failed: 0
+Success Rate: 0.0%
+Total Memory: 0.00 MB
+Average Load Time: 0ms
+

@@ -1,0 +1,16 @@
+2025-10-27 14:39:20.761 +08:00 [INF] Starting plugin loader service
+2025-10-27 14:39:20.797 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-27 14:39:20.802 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-27 14:39:20.803 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\plugins
+2025-10-27 14:39:20.804 +08:00 [WRN] No plugins discovered
+2025-10-27 14:39:20.804 +08:00 [INF] Plugin loader service started. Loaded 0 plugin(s)
+2025-10-27 14:39:20.810 +08:00 [INF] 
+=== Plugin System Metrics ===
+Total Load Time: 0.01s
+Plugins Attempted: 0
+Plugins Loaded: 0
+Plugins Failed: 0
+Success Rate: 0.0%
+Total Memory: 0.00 MB
+Average Load Time: 0ms
+

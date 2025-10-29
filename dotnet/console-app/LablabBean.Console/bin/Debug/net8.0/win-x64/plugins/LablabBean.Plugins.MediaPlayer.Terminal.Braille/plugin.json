@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../framework/LablabBean.Plugins.Contracts/plugin.schema.json",
+  "author": "Lablab Bean Team",
+  "capabilities": [
+    "video-rendering",
+    "braille-output",
+    "terminal-renderer",
+    "accessible-media"
+  ],
+  "configuration": {
+    "autoStart": true,
+    "enabled": true,
+    "settings": {
+      "height": 24,
+      "width": 80
+    }
+  },
+  "dependencies": [
+    {
+      "id": "media-player-core"
+    }
+  ],
+  "description": "Braille-based terminal video renderer for accessible media playback",
+  "entryPoint": {
+    "dotnet.console": "LablabBean.Plugins.MediaPlayer.Terminal.Braille.dll,LablabBean.Plugins.MediaPlayer.Terminal.Braille.BrailleRendererPlugin"
+  },
+  "id": "media-player-terminal-braille",
+  "name": "Braille Terminal Renderer",
+  "permissions": {
+    "profile": "Standard"
+  },
+  "priority": 70,
+  "version": "1.0.0"
+}

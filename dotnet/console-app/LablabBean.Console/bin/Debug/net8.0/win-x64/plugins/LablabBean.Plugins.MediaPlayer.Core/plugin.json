@@ -1,0 +1,26 @@
+{
+  "$schema": "../../framework/LablabBean.Plugins.Contracts/plugin.schema.json",
+  "author": "Lablab Bean Team",
+  "capabilities": [
+    "media-playback",
+    "media-player",
+    "state-management",
+    "event-system"
+  ],
+  "configuration": {
+    "autoStart": true,
+    "enabled": true
+  },
+  "dependencies": [],
+  "description": "Core media player functionality with playback controls and state management",
+  "entryPoint": {
+    "dotnet.console": "LablabBean.Plugins.MediaPlayer.Core.dll,LablabBean.Plugins.MediaPlayer.Core.MediaPlayerPlugin"
+  },
+  "id": "media-player-core",
+  "name": "Media Player Core",
+  "permissions": {
+    "profile": "Standard"
+  },
+  "priority": 50,
+  "version": "1.0.0"
+}

@@ -1,0 +1,68 @@
+2025-10-28 10:37:45.282 +08:00 [WRN] Failed to attempt terminal launch, continuing with current terminal
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'LablabBean.Console.Services.TerminalLaunchService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\Program.cs:line 193
+2025-10-28 10:37:45.328 +08:00 [INF] Starting plugin loader service
+2025-10-28 10:37:45.332 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-28 10:37:45.335 +08:00 [INF] Scanning for plugins in: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\bin\Debug\net8.0\plugins
+2025-10-28 10:37:45.453 +08:00 [INF] Discovered plugin: rendering-terminal v1.0.0
+2025-10-28 10:37:45.465 +08:00 [INF] Discovered plugin: ui-terminal v1.0.0
+2025-10-28 10:37:45.465 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-28 10:37:45.467 +08:00 [INF] Selected single ui plugin: ui-terminal
+2025-10-28 10:37:45.467 +08:00 [INF] Selected single renderer plugin: rendering-terminal
+2025-10-28 10:37:45.468 +08:00 [WRN] Plugin ui-terminal has missing soft dependencies: boss, inventory, npc, progression, quest, spells, status-effects, hazards, vector-store-file, vector-store-qdrant, lablab-bean.diagnostic-firebase, lablab-bean.diagnostic-opentelemetry, lablab-bean.diagnostic-sentry
+2025-10-28 10:37:45.472 +08:00 [INF] Loading plugin: rendering-terminal
+2025-10-28 10:37:45.562 +08:00 [INF] Initializing Terminal Rendering plugin
+2025-10-28 10:37:45.563 +08:00 [INF] Registered ISceneRenderer for Terminal.Gui
+2025-10-28 10:37:45.563 +08:00 [INF] Terminal rendering plugin started
+2025-10-28 10:37:45.564 +08:00 [INF] Plugin loaded: rendering-terminal in 91ms
+2025-10-28 10:37:45.564 +08:00 [INF] Loading plugin: ui-terminal
+2025-10-28 10:37:46.029 +08:00 [INF] Initializing Terminal UI plugin
+2025-10-28 10:37:46.029 +08:00 [INF] Registered IService, IDungeonCrawlerUI, and ISceneRenderer
+2025-10-28 10:37:46.200 +08:00 [INF] Starting Terminal.Gui UI
+2025-10-28 10:37:48.857 +08:00 [INF] Terminal UI adapter initialized with full HUD, WorldView, and ActivityLog
+2025-10-28 10:39:10.838 +08:00 [WRN] Failed to attempt terminal launch, continuing with current terminal
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'LablabBean.Console.Services.TerminalLaunchService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\Program.cs:line 193
+2025-10-28 10:39:10.887 +08:00 [INF] Starting plugin loader service
+2025-10-28 10:39:10.892 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-28 10:39:10.895 +08:00 [INF] Scanning for plugins in: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\bin\Debug\net8.0\plugins
+2025-10-28 10:39:10.943 +08:00 [INF] Discovered plugin: rendering-terminal v1.0.0
+2025-10-28 10:39:10.944 +08:00 [INF] Discovered plugin: ui-terminal v1.0.0
+2025-10-28 10:39:10.945 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-28 10:39:10.948 +08:00 [INF] Selected single ui plugin: ui-terminal
+2025-10-28 10:39:10.948 +08:00 [INF] Selected single renderer plugin: rendering-terminal
+2025-10-28 10:39:10.950 +08:00 [WRN] Plugin ui-terminal has missing soft dependencies: boss, inventory, npc, progression, quest, spells, status-effects, hazards, vector-store-file, vector-store-qdrant, lablab-bean.diagnostic-firebase, lablab-bean.diagnostic-opentelemetry, lablab-bean.diagnostic-sentry
+2025-10-28 10:39:10.955 +08:00 [INF] Loading plugin: rendering-terminal
+2025-10-28 10:39:10.965 +08:00 [INF] Initializing Terminal Rendering plugin
+2025-10-28 10:39:10.966 +08:00 [INF] Registered ISceneRenderer for Terminal.Gui
+2025-10-28 10:39:10.966 +08:00 [INF] Terminal rendering plugin started
+2025-10-28 10:39:10.967 +08:00 [INF] Plugin loaded: rendering-terminal in 12ms
+2025-10-28 10:39:10.968 +08:00 [INF] Loading plugin: ui-terminal
+2025-10-28 10:39:10.972 +08:00 [INF] Initializing Terminal UI plugin
+2025-10-28 10:39:10.972 +08:00 [INF] Registered IService, IDungeonCrawlerUI, and ISceneRenderer
+2025-10-28 10:39:10.974 +08:00 [INF] Starting Terminal.Gui UI
+2025-10-28 10:39:11.542 +08:00 [INF] Terminal UI adapter initialized with full HUD, WorldView, and ActivityLog

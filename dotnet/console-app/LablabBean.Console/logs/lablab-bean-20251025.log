@@ -1,0 +1,28 @@
+2025-10-25 11:06:48.908 +08:00 [INF] IntelligentAISystem initialized with ActorSystem: AvatarActorSystem
+2025-10-25 11:06:48.935 +08:00 [INF] === IntelligentAISystem Test Starting ===
+2025-10-25 11:06:49.175 +08:00 [INF] Created ECS world
+2025-10-25 11:06:49.192 +08:00 [INF] Created 2 test entities: Boss (ID=0) and Employee (ID=1)
+2025-10-25 11:06:49.193 +08:00 [INF] === Test 1: Actor Spawning ===
+2025-10-25 11:06:49.305 +08:00 [INF] Spawned EmployeeActor for entity 1
+2025-10-25 11:06:49.312 +08:00 [INF] Spawned BossActor for entity 0
+2025-10-25 11:06:49.344 +08:00 [INF] [INFO][10/25/2025 03:06:49.336Z][Thread 0005][akka://AvatarActorSystem/user/entity-1] EmployeeActor starting: employee-1
+2025-10-25 11:06:49.344 +08:00 [INF] [INFO][10/25/2025 03:06:49.336Z][Thread 0008][akka://AvatarActorSystem/user/entity-0] BossActor starting: boss-0
+2025-10-25 11:06:50.324 +08:00 [INF] === Test 2: Multiple Updates ===
+2025-10-25 11:06:50.537 +08:00 [INF] Update 1 complete
+2025-10-25 11:06:50.737 +08:00 [INF] Update 2 complete
+2025-10-25 11:06:50.939 +08:00 [INF] Update 3 complete
+2025-10-25 11:06:51.153 +08:00 [INF] Update 4 complete
+2025-10-25 11:06:51.354 +08:00 [INF] Update 5 complete
+2025-10-25 11:06:51.354 +08:00 [INF] === Test 3: Player Proximity ===
+2025-10-25 11:06:51.356 +08:00 [INF] Created player at (12, 12) - near boss at (10, 10)
+2025-10-25 11:06:51.859 +08:00 [INF] Player proximity update 1
+2025-10-25 11:06:52.367 +08:00 [INF] Player proximity update 2
+2025-10-25 11:06:52.874 +08:00 [INF] Player proximity update 3
+2025-10-25 11:06:52.875 +08:00 [INF] === Test 4: Graceful Shutdown ===
+2025-10-25 11:06:52.875 +08:00 [INF] Shutting down IntelligentAISystem...
+2025-10-25 11:06:52.876 +08:00 [INF] IntelligentAISystem shutdown complete
+2025-10-25 11:06:52.877 +08:00 [INF] [INFO][10/25/2025 03:06:52.877Z][Thread 0012][akka://AvatarActorSystem/user/entity-1] EmployeeActor stopped: employee-1
+2025-10-25 11:06:52.877 +08:00 [INF] [INFO][10/25/2025 03:06:52.877Z][Thread 0009][akka://AvatarActorSystem/user/entity-0] BossActor stopped: boss-0
+2025-10-25 11:06:52.879 +08:00 [INF] [INFO][10/25/2025 03:06:52.878Z][Thread 0008][akka://AvatarActorSystem/user/event-bus-adapter] [STOPPED] akka://AvatarActorSystem/user/entity-1 (1): Normal shutdown
+2025-10-25 11:06:52.879 +08:00 [INF] [INFO][10/25/2025 03:06:52.878Z][Thread 0008][akka://AvatarActorSystem/user/event-bus-adapter] [STOPPED] akka://AvatarActorSystem/user/entity-0 (0): Normal shutdown
+2025-10-25 11:06:53.891 +08:00 [INF] === IntelligentAISystem Test Complete ===

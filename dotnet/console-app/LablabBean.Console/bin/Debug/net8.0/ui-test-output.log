@@ -1,0 +1,28 @@
+[14:41:33 INF] Starting plugin loader service
+[14:41:33 INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+[14:41:33 INF] Scanning for plugins in: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\bin\Debug\net8.0\plugins
+[14:41:34 INF] Discovered plugin: rendering-terminal v1.0.0
+[14:41:34 INF] Discovered plugin: ui-terminal v1.0.0
+[14:41:34 WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+[14:41:34 ERR] Plugin ui-terminal excluded: missing hard dependencies: boss, inventory, npc, progression, quest, spells, status-effects, hazards, vector-store-file
+[14:41:34 INF] Loading plugin: rendering-terminal
+[14:41:34 INF] Initializing Terminal Rendering plugin
+[14:41:34 INF] Registered ISceneRenderer for Terminal.Gui
+[14:41:34 INF] Terminal rendering plugin started
+[14:41:34 INF] Plugin loaded: rendering-terminal in 110ms
+[14:41:34 INF] Plugin loader service started. Loaded 1 plugin(s)
+[14:41:34 INF] 
+=== Plugin System Metrics ===
+Total Load Time: 0.30s
+Plugins Attempted: 1
+Plugins Loaded: 1
+Plugins Failed: 0
+Success Rate: 100.0%
+Total Memory: 0.04 MB
+Average Load Time: 110ms
+
+=== Per-Plugin Metrics ===
+? rendering-terminal (dotnet.console)
+   Load Time: 110ms
+   Memory: 44 KB
+

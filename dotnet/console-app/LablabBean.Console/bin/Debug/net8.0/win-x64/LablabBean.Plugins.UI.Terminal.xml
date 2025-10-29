@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LablabBean.Plugins.UI.Terminal</name>
+    </assembly>
+    <members>
+        <member name="T:LablabBean.Plugins.UI.Terminal.TerminalUiPlugin">
+            <summary>
+            Terminal UI plugin that hosts Terminal.Gui and wires up TerminalUiAdapter.
+            Loads last by depending on core gameplay and rendering plugins.
+            </summary>
+        </member>
+    </members>
+</doc>

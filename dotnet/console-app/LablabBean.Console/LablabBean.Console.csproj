@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LablabBean.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Infrastructure" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Reactive" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Game.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Contracts.Diagnostic" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Reporting.Contracts" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.Reporting.Html" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.Reporting.Csv" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Reporting.Providers.Build" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Reporting.Analytics" Version="0.0.3" />
+    <PackageReference Include="LablabBean.SourceGenerators.Reporting" Version="0.0.3" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <PackageReference Include="LablabBean.AI.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.AI.Actors" Version="0.0.3" />
+    <PackageReference Include="LablabBean.AI.Agents" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.MediaPlayer.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.MediaPlayer.FFmpeg" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.MediaPlayer.Terminal.Braille" Version="0.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <PackageReference Include="Serilog" />
+    <PackageReference Include="System.CommandLine" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <!-- Legacy TUI files removed; compile-excludes cleaned up -->
+
+  <!-- TEMP: Exclude media TUI views (need API updates for Terminal.Gui 2.x) -->
+  <ItemGroup>
+    <Compile Remove="Views\Media\MediaPlayerView.cs" />
+    <Compile Remove="Views\Media\MediaControlsView.cs" />
+  </ItemGroup>
+
+  <!-- Ensure Terminal UI + renderer plugins are included in publish so their plugin.json files land under publish/console/plugins -->
+  <ItemGroup>
+    <PackageReference Include="LablabBean.Plugins.Rendering.Terminal" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.UI.Terminal" Version="0.0.3" />
+  </ItemGroup>
+
+</Project>

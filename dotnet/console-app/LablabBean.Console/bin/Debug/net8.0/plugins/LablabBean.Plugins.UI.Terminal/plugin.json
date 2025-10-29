@@ -1,0 +1,70 @@
+{
+  "capabilities": [
+    "ui"
+  ],
+  "dependencies": [
+    {
+      "id": "rendering-terminal",
+      "optional": false
+    },
+    {
+      "id": "boss",
+      "optional": true
+    },
+    {
+      "id": "inventory",
+      "optional": true
+    },
+    {
+      "id": "npc",
+      "optional": true
+    },
+    {
+      "id": "progression",
+      "optional": true
+    },
+    {
+      "id": "quest",
+      "optional": true
+    },
+    {
+      "id": "spells",
+      "optional": true
+    },
+    {
+      "id": "status-effects",
+      "optional": true
+    },
+    {
+      "id": "hazards",
+      "optional": true
+    },
+    {
+      "id": "vector-store-file",
+      "optional": true
+    },
+    {
+      "id": "vector-store-qdrant",
+      "optional": true
+    },
+    {
+      "id": "lablab-bean.diagnostic-firebase",
+      "optional": true
+    },
+    {
+      "id": "lablab-bean.diagnostic-opentelemetry",
+      "optional": true
+    },
+    {
+      "id": "lablab-bean.diagnostic-sentry",
+      "optional": true
+    }
+  ],
+  "description": "Terminal.Gui-based UI host.",
+  "entryPoint": {
+    "dotnet.console": "LablabBean.Plugins.UI.Terminal.dll,LablabBean.Plugins.UI.Terminal.TerminalUiPlugin"
+  },
+  "id": "ui-terminal",
+  "name": "Terminal UI",
+  "version": "1.0.0"
+}

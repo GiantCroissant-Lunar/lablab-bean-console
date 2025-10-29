@@ -1,0 +1,66 @@
+2025-10-22 08:02:14.485 +08:00 [INF] Starting plugin loader service
+2025-10-22 08:02:14.514 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-22 08:02:14.518 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-22 08:02:14.518 +08:00 [INF] Scanning for plugins in: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\plugins
+2025-10-22 08:02:14.550 +08:00 [INF] Discovered plugin: demo-plugin v1.0.0
+2025-10-22 08:02:14.557 +08:00 [INF] Loading plugin: demo-plugin
+2025-10-22 08:02:14.562 +08:00 [INF] DemoPlugin initialized
+2025-10-22 08:02:14.563 +08:00 [INF] Plugin ID: demo-plugin, Name: Demo Plugin, Version: 1.0.0
+2025-10-22 08:02:14.564 +08:00 [INF] Configuration available: true
+2025-10-22 08:02:14.564 +08:00 [INF] Registry available: true
+2025-10-22 08:02:14.565 +08:00 [INF] DemoPlugin started
+2025-10-22 08:02:14.565 +08:00 [INF] This is a simple test plugin demonstrating:
+2025-10-22 08:02:14.565 +08:00 [INF]   ✓ Plugin discovery and loading
+2025-10-22 08:02:14.565 +08:00 [INF]   ✓ Context initialization with logger, config, and registry
+2025-10-22 08:02:14.565 +08:00 [INF]   ✓ Lifecycle management (Initialize → Start → Stop)
+2025-10-22 08:02:14.565 +08:00 [INF]   ✓ Host communication via IPluginHost
+2025-10-22 08:02:14.565 +08:00 [INF]   ✓ AssemblyLoadContext isolation
+2025-10-22 08:02:14.565 +08:00 [INF] Plugin loaded: demo-plugin in 8ms
+2025-10-22 08:02:14.566 +08:00 [INF] Plugin loader service started. Loaded 1 plugin(s)
+2025-10-22 08:02:14.576 +08:00 [INF] 
+=== Plugin System Metrics ===
+Total Load Time: 0.06s
+Plugins Attempted: 1
+Plugins Loaded: 1
+Plugins Failed: 0
+Success Rate: 100.0%
+Total Memory: 0.03 MB
+Average Load Time: 7ms
+
+=== Per-Plugin Metrics ===
+✅ demo-plugin (dotnet.console)
+   Load Time: 7ms
+   Memory: 31 KB
+
+2025-10-22 08:02:14.577 +08:00 [INF] Console application starting
+2025-10-22 08:02:14.578 +08:00 [INF] Initializing Terminal.Gui
+2025-10-22 08:02:15.878 +08:00 [INF] Starting Terminal.Gui application
+2025-10-22 08:02:16.070 +08:00 [INF] Game window created
+2025-10-22 08:02:16.070 +08:00 [INF] Starting new game
+2025-10-22 08:02:16.071 +08:00 [INF] Initializing new game with map size 80x40
+2025-10-22 08:02:16.149 +08:00 [INF] Generated dungeon level 1
+2025-10-22 08:02:16.157 +08:00 [INF] Player created at (45,2) with 50/100 HP for testing
+2025-10-22 08:02:16.160 +08:00 [INF] Created 12 enemies on level 1
+2025-10-22 08:02:16.179 +08:00 [INF] Play world initialized with player, enemies, and items
+2025-10-22 08:02:16.181 +08:00 [INF] Cleared "Edit" world
+2025-10-22 08:02:16.181 +08:00 [INF] Game initialized successfully
+2025-10-22 08:02:16.199 +08:00 [INF] Render called: viewWidth=0, viewHeight=0
+2025-10-22 08:02:16.199 +08:00 [WRN] Render aborted: view dimensions invalid
+2025-10-22 08:02:16.207 +08:00 [INF] Render called: viewWidth=0, viewHeight=0
+2025-10-22 08:02:16.207 +08:00 [WRN] Render aborted: view dimensions invalid
+2025-10-22 08:02:16.208 +08:00 [INF] Render called: viewWidth=0, viewHeight=0
+2025-10-22 08:02:16.208 +08:00 [WRN] Render aborted: view dimensions invalid
+2025-10-22 08:02:16.216 +08:00 [INF] Render called: viewWidth=0, viewHeight=0
+2025-10-22 08:02:16.216 +08:00 [WRN] Render aborted: view dimensions invalid
+2025-10-22 08:02:16.217 +08:00 [INF] Render called: viewWidth=0, viewHeight=0
+2025-10-22 08:02:16.217 +08:00 [WRN] Render aborted: view dimensions invalid
+2025-10-22 08:02:16.218 +08:00 [INF] Render called: viewWidth=0, viewHeight=0
+2025-10-22 08:02:16.218 +08:00 [WRN] Render aborted: view dimensions invalid
+2025-10-22 10:58:59.948 +08:00 [INF] Console application stopping
+2025-10-22 10:58:59.949 +08:00 [INF] Stopping plugin loader service
+2025-10-22 10:58:59.950 +08:00 [INF] Unloading plugin: demo-plugin
+2025-10-22 10:58:59.950 +08:00 [INF] DemoPlugin stopping gracefully
+2025-10-22 10:58:59.950 +08:00 [INF] Plugin unloaded: demo-plugin
+2025-10-22 10:58:59.950 +08:00 [INF] Plugin loader service stopped
+2025-10-22 10:58:59.953 +08:00 [INF] Game stopped
+2025-10-22 10:58:59.959 +08:00 [INF] GameStateManager disposed

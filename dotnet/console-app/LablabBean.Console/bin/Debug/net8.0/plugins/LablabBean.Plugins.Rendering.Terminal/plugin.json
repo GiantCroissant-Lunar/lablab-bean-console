@@ -1,0 +1,14 @@
+{
+  "capabilities": [
+    "renderer",
+    "renderer:terminal"
+  ],
+  "dependencies": [],
+  "description": "Terminal.Gui scene renderer.",
+  "entryPoint": {
+    "dotnet.console": "LablabBean.Plugins.Rendering.Terminal.dll,LablabBean.Plugins.Rendering.Terminal.TerminalRenderingPlugin"
+  },
+  "id": "rendering-terminal",
+  "name": "Terminal Rendering",
+  "version": "1.0.0"
+}

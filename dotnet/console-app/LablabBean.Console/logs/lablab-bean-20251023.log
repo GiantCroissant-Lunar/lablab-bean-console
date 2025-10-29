@@ -1,0 +1,46 @@
+2025-10-23 12:58:45.222 +08:00 [INF] Starting plugin loader service
+2025-10-23 12:58:45.248 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-23 12:58:45.253 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-23 12:58:45.253 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\plugins
+2025-10-23 12:58:45.254 +08:00 [WRN] No plugins discovered
+2025-10-23 12:58:45.254 +08:00 [INF] Plugin loader service started. Loaded 0 plugin(s)
+2025-10-23 12:58:45.258 +08:00 [INF] 
+=== Plugin System Metrics ===
+Total Load Time: 0.01s
+Plugins Attempted: 0
+Plugins Loaded: 0
+Plugins Failed: 0
+Success Rate: 0.0%
+Total Memory: 0.00 MB
+Average Load Time: 0ms
+
+2025-10-23 12:58:45.260 +08:00 [INF] Console application starting
+2025-10-23 12:58:45.262 +08:00 [INF] Initializing Terminal.Gui
+2025-10-23 12:58:45.652 +08:00 [INF] Starting Terminal.Gui application
+2025-10-23 12:58:45.684 +08:00 [INF] Game window created
+2025-10-23 12:58:45.684 +08:00 [INF] Starting new game
+2025-10-23 12:58:45.685 +08:00 [INF] Initializing new game with map size 80x40
+2025-10-23 12:58:45.702 +08:00 [INF] Generated dungeon level 1
+2025-10-23 12:58:45.707 +08:00 [INF] Player created at (40,25) with 50/100 HP for testing
+2025-10-23 12:58:45.710 +08:00 [INF] Created 12 enemies on level 1
+2025-10-23 12:58:45.723 +08:00 [INF] Play world initialized with player, enemies, and items
+2025-10-23 12:58:45.725 +08:00 [INF] Cleared "Edit" world
+2025-10-23 12:58:45.726 +08:00 [INF] Game initialized successfully
+2025-10-23 12:58:45.739 +08:00 [INF] Render called: viewWidth=86, viewHeight=66
+2025-10-23 12:58:45.740 +08:00 [INF] Rendering with player at 40,25
+2025-10-23 12:58:45.743 +08:00 [INF] Buffer created: 86x66, updating view
+2025-10-23 12:58:45.749 +08:00 [INF] Render called: viewWidth=86, viewHeight=66
+2025-10-23 12:58:45.750 +08:00 [INF] Rendering with player at 40,25
+2025-10-23 12:58:45.751 +08:00 [INF] Buffer created: 86x66, updating view
+2025-10-23 12:58:45.753 +08:00 [INF] Render called: viewWidth=86, viewHeight=66
+2025-10-23 12:58:45.754 +08:00 [INF] Rendering with player at 40,25
+2025-10-23 12:58:45.755 +08:00 [INF] Buffer created: 86x66, updating view
+2025-10-23 12:58:45.766 +08:00 [INF] Render called: viewWidth=86, viewHeight=66
+2025-10-23 12:58:45.766 +08:00 [INF] Rendering with player at 40,25
+2025-10-23 12:58:45.771 +08:00 [INF] Buffer created: 86x66, updating view
+2025-10-23 12:58:45.772 +08:00 [INF] Render called: viewWidth=86, viewHeight=66
+2025-10-23 12:58:45.773 +08:00 [INF] Rendering with player at 40,25
+2025-10-23 12:58:45.774 +08:00 [INF] Buffer created: 86x66, updating view
+2025-10-23 12:58:45.775 +08:00 [INF] Render called: viewWidth=86, viewHeight=66
+2025-10-23 12:58:45.776 +08:00 [INF] Rendering with player at 40,25
+2025-10-23 12:58:45.777 +08:00 [INF] Buffer created: 86x66, updating view

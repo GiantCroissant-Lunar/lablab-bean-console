@@ -1,0 +1,17 @@
+[14:42:37 INF] Starting plugin loader service
+[14:42:37 INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+[14:42:37 INF] Scanning for plugins in: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\bin\Debug\net8.0\plugins
+[14:42:37 INF] Discovered plugin: rendering-terminal v1.0.0
+[14:42:37 INF] Discovered plugin: ui-terminal v1.0.0
+[14:42:37 WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+[14:42:37 WRN] Plugin ui-terminal has missing soft dependencies: boss, inventory, npc, progression, quest, spells, status-effects, hazards, vector-store-file, vector-store-qdrant, lablab-bean.diagnostic-firebase, lablab-bean.diagnostic-opentelemetry, lablab-bean.diagnostic-sentry
+[14:42:37 INF] Loading plugin: rendering-terminal
+[14:42:37 INF] Initializing Terminal Rendering plugin
+[14:42:37 INF] Registered ISceneRenderer for Terminal.Gui
+[14:42:37 INF] Terminal rendering plugin started
+[14:42:37 INF] Plugin loaded: rendering-terminal in 25ms
+[14:42:37 INF] Loading plugin: ui-terminal
+[14:42:37 INF] Initializing Terminal UI plugin
+[14:42:37 INF] Registered IService, IDungeonCrawlerUI, and ISceneRenderer
+[14:42:37 INF] Starting Terminal.Gui UI
+[14:42:40 INF] Terminal UI adapter initialized with full HUD, WorldView, and ActivityLog

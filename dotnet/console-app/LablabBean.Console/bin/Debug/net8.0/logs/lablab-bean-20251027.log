@@ -1,0 +1,61 @@
+2025-10-27 00:29:32.374 +08:00 [INF] Starting plugin loader service
+2025-10-27 00:29:32.454 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-27 00:29:32.459 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\bin\Debug\net8.0\plugins
+2025-10-27 00:29:32.459 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-27 00:29:32.461 +08:00 [WRN] No plugins discovered
+2025-10-27 00:29:32.462 +08:00 [INF] Plugin loader service started. Loaded 0 plugin(s)
+2025-10-27 00:29:32.469 +08:00 [INF] 
+=== Plugin System Metrics ===
+Total Load Time: 0.02s
+Plugins Attempted: 0
+Plugins Loaded: 0
+Plugins Failed: 0
+Success Rate: 0.0%
+Total Memory: 0.00 MB
+Average Load Time: 0ms
+
+2025-10-27 14:41:33.809 +08:00 [INF] Starting plugin loader service
+2025-10-27 14:41:33.845 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-27 14:41:33.853 +08:00 [INF] Scanning for plugins in: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\bin\Debug\net8.0\plugins
+2025-10-27 14:41:34.000 +08:00 [INF] Discovered plugin: rendering-terminal v1.0.0
+2025-10-27 14:41:34.005 +08:00 [INF] Discovered plugin: ui-terminal v1.0.0
+2025-10-27 14:41:34.008 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-27 14:41:34.015 +08:00 [ERR] Plugin ui-terminal excluded: missing hard dependencies: boss, inventory, npc, progression, quest, spells, status-effects, hazards, vector-store-file
+2025-10-27 14:41:34.025 +08:00 [INF] Loading plugin: rendering-terminal
+2025-10-27 14:41:34.133 +08:00 [INF] Initializing Terminal Rendering plugin
+2025-10-27 14:41:34.134 +08:00 [INF] Registered ISceneRenderer for Terminal.Gui
+2025-10-27 14:41:34.135 +08:00 [INF] Terminal rendering plugin started
+2025-10-27 14:41:34.135 +08:00 [INF] Plugin loaded: rendering-terminal in 110ms
+2025-10-27 14:41:34.137 +08:00 [INF] Plugin loader service started. Loaded 1 plugin(s)
+2025-10-27 14:41:34.146 +08:00 [INF] 
+=== Plugin System Metrics ===
+Total Load Time: 0.30s
+Plugins Attempted: 1
+Plugins Loaded: 1
+Plugins Failed: 0
+Success Rate: 100.0%
+Total Memory: 0.04 MB
+Average Load Time: 110ms
+
+=== Per-Plugin Metrics ===
+✅ rendering-terminal (dotnet.console)
+   Load Time: 110ms
+   Memory: 44 KB
+
+2025-10-27 14:42:37.604 +08:00 [INF] Starting plugin loader service
+2025-10-27 14:42:37.638 +08:00 [INF] Loading plugins from 2 path(s): plugins, ../../../plugins
+2025-10-27 14:42:37.645 +08:00 [INF] Scanning for plugins in: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\bin\Debug\net8.0\plugins
+2025-10-27 14:42:37.715 +08:00 [INF] Discovered plugin: rendering-terminal v1.0.0
+2025-10-27 14:42:37.719 +08:00 [INF] Discovered plugin: ui-terminal v1.0.0
+2025-10-27 14:42:37.722 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\console-app\LablabBean.Console\plugins
+2025-10-27 14:42:37.728 +08:00 [WRN] Plugin ui-terminal has missing soft dependencies: boss, inventory, npc, progression, quest, spells, status-effects, hazards, vector-store-file, vector-store-qdrant, lablab-bean.diagnostic-firebase, lablab-bean.diagnostic-opentelemetry, lablab-bean.diagnostic-sentry
+2025-10-27 14:42:37.733 +08:00 [INF] Loading plugin: rendering-terminal
+2025-10-27 14:42:37.756 +08:00 [INF] Initializing Terminal Rendering plugin
+2025-10-27 14:42:37.757 +08:00 [INF] Registered ISceneRenderer for Terminal.Gui
+2025-10-27 14:42:37.758 +08:00 [INF] Terminal rendering plugin started
+2025-10-27 14:42:37.758 +08:00 [INF] Plugin loaded: rendering-terminal in 25ms
+2025-10-27 14:42:37.759 +08:00 [INF] Loading plugin: ui-terminal
+2025-10-27 14:42:37.791 +08:00 [INF] Initializing Terminal UI plugin
+2025-10-27 14:42:37.791 +08:00 [INF] Registered IService, IDungeonCrawlerUI, and ISceneRenderer
+2025-10-27 14:42:37.972 +08:00 [INF] Starting Terminal.Gui UI
+2025-10-27 14:42:40.089 +08:00 [INF] Terminal UI adapter initialized with full HUD, WorldView, and ActivityLog
